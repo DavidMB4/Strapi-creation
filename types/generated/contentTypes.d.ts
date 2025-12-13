@@ -433,7 +433,7 @@ export interface AdminUser extends Struct.CollectionTypeSchema {
 export interface ApiNoticaNotica extends Struct.CollectionTypeSchema {
   collectionName: 'noticas';
   info: {
-    displayName: 'notica';
+    displayName: 'new';
     pluralName: 'noticas';
     singularName: 'notica';
   };
