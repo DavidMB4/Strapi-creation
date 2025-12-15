@@ -37,6 +37,25 @@
         "videos",
         "audios"
       ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Firma de Libros",
+        "Club de Lectura",
+        "Taller",
+        "Infantil",
+        "Otro"
+      ]
+    },
+    "duration": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "registrationUrl": {
+      "type": "string"
     }
   }
 }
