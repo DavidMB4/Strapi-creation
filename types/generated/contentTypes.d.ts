@@ -453,6 +453,7 @@ export interface ApiEventoEvento extends Struct.CollectionTypeSchema {
     description: Schema.Attribute.RichText;
     duration: Schema.Attribute.String;
     imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    interestedCount: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<0>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',

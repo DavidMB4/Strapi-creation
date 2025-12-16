@@ -56,6 +56,10 @@
     },
     "registrationUrl": {
       "type": "string"
+    },
+    "interestedCount": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
