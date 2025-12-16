@@ -3,9 +3,9 @@ export default {
         {
             method: 'PUT',
             path: '/eventos/:id/interest',
-            handler: 'evento.incrementInterest',
+            handler: 'api::evento.evento.incrementInterest',
             config: {
-                auth: false
+                auth: false,
             },
         },
     ],
